@@ -1,0 +1,102 @@
+﻿<Window x:Class="SevenDaysConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SevenDaysConverter"
+        mc:Ignorable="d"
+        Title="7Days to End with You Converter v 0.01" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton00" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image00" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton00" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton00" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton01" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image01" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton01" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton01" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton02" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image02" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton02" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton02" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton03" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image03" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton03" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton03" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton04" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image04" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton04" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton04" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton05" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image05" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton05" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton05" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton06" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image06" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton06" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton06" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton07" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image07" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton07" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton07" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton08" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image08" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton08" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton08" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton09" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image09" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton09" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton09" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton10" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image10" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton10" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton10" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="50">
+                    <Button Name="UpButton11" Content="▲" Click="UpButton_Click"/>
+                    <Image Name="Image11" RenderOptions.BitmapScalingMode="NearestNeighbor" Height="64"/>
+                    <Button Name="DownButton11" Content="▼" Click="DownButtton_Click"/>
+                    <Button Name="ResetButton11" Content="Clear" Click="ResetButton_Click"/>
+                </StackPanel>
+                <Button Name="ResetAll" Content="Reset" Width="100" Click="ResetAll_Click"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row ="0" Name ="EnglishText" IsReadOnly="True"/>
+            <Button Grid.Row="1" Name ="Convert" Content="Convert" Click="Convert_Click"/>
+        </Grid>
+        <TextBox Grid.Row="2" Name ="Candidates" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
