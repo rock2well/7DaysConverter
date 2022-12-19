@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SevenDaysConverter"
         mc:Ignorable="d"
-        Title="7Days to End with You Converter v 0.01" Height="450" Width="800">
+        Title="7Days to End with You Converter v 1.01" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
