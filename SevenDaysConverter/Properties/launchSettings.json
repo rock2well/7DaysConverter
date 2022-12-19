@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SevenDaysConverter": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
