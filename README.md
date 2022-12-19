@@ -1,3 +1,9 @@
+# Caution
+#### JP
+このソフトを利用することで対象ゲームの楽しみを大きく損なう場合があります。本ツールはゲームクリアまたは単語ルールの把握を行えた方向けのものです。
+#### EN
+The use of this software may greatly impair your enjoyment of the target game. This tool is intended for those who have completed the game or have a good grasp of the word rules.
+
 ![image](https://user-images.githubusercontent.com/20409177/208360406-a305ba27-2454-4fae-8150-68bc9e48d685.png)
 
 # 7DaysConverter
